@@ -28,9 +28,14 @@
 # Trackers: Kalman Filter and KCF
 
 	Kalman filter is fast but less accurate. KCF is accurate but much slower. 
-	They are implemnted with exactly same interface, so we can easily switch one to 
-	another in the project.
+	They are implemnted with exactly same interface, so we can easily switch from one to another 
+	in the project.
 
 # Live Camera Capture: OpenCV
 
 	OpenCV is used to capture live video frames and used for image preprocessing.
+
+# Misc
+
+	YOLO3.DLL and the model file are too big. They can be download from following link:
+	https://pan.baidu.com/s/1CPYU2o59vutoq-OJewObRw

@@ -53,8 +53,6 @@ typedef struct
    int   anchors[18];
 } yolo3_options_t;
 
-#define mydataFmt cnn_type_t
-
 struct orderScore
 {
     cnn_type_t score;
