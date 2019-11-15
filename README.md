@@ -23,7 +23,8 @@
 # Detectors: Yolo3 
 
 	Yolo3 is trained for detecting bottles, cans and hands in this demo. It is trained with Keras 
-	and compiled with tensorflow C++ into a DLL. (YOLO3.DLL under bin folder).
+	and compiled with tensorflow C++ into a DLL. (YOLO3.DLL under bin folder). CUDA 9.2 is used to
+	compile the tensorflow C++ library.
 
 # Trackers: Kalman Filter and KCF
 
@@ -37,5 +38,5 @@
 
 # Misc
 
-	YOLO3.DLL and the model file are too big. They can be download from following link:
+	YOLO3.DLL and the model file are too big. They can be downloaded from following link:
 	https://pan.baidu.com/s/1CPYU2o59vutoq-OJewObRw
