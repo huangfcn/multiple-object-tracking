@@ -12,13 +12,13 @@
 
 	https://towardsdatascience.com/computer-vision-for-tracking-8220759eee85
   
-	Another introduction with matlab code,
+	Another example in more detail with matlab code (detecors and trackers may different),
   
 	https://www.mathworks.com/help/vision/examples/motion-based-multiple-object-tracking.html
 
-	Here I implemented a highly efficient and scalable C/C++ framework to combine the state of art 
-	deep-learning based detectors (Yolo3 is used here) and correlation filters based trackers 
-	(KCF, Kalman is also implemneted). The assignment problem is solved by hungrian algorithm.
+	Here I implemented a highly efficient and scalable C++ framework to combine the state of art 
+	deep-learning based detectors (Yolo3 demoed here) and correlation filters based trackers 
+	(KCF, Kalman Filters also implemented). The assignment problem is solved by hungarian algorithm.
   
 # Detectors: Yolo3 
 
