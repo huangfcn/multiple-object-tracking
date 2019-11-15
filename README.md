@@ -16,19 +16,19 @@
   
 	https://www.mathworks.com/help/vision/examples/motion-based-multiple-object-tracking.html
 
-	Here I implemented a highly efficient and scalable C/C++ framework to combine the state of art deep-learning based detectors 
-	(Yolo3 is used here) and correlation filters based tackers (KCF, Kalman is also implemneted). The assignment problem is 
-	solved by hungrian algorithm.
+	Here I implemented a highly efficient and scalable C/C++ framework to combine the state of art 
+	deep-learning based detectors (Yolo3 is used here) and correlation filters based trackers 
+	(KCF, Kalman is also implemneted). The assignment problem is solved by hungrian algorithm.
   
 # Detectors: Yolo3 
 
-	Yolo3 is trained for detecting bottles, cans and hands in this demo. It is trained with a Keras model and compiled with 
-	tensorflow C++ into a DLL (YOLO3.DLL under bin folder).
+	Yolo3 is trained for detecting bottles, cans and hands in this demo. It is trained with Keras 
+	and compiled with tensorflow C++ into a DLL. (YOLO3.DLL under bin folder).
 
 # Trackers: Kalman Filter and KCF
 
-	Kalman filter is fast but less accurate. KCF is accurate but more accurate. 
-	They are implemnted with exactly same external interface, so we can choose one in the project.
+	Kalman filter is fast but less accurate. KCF is accurate but much slower. 
+	They are implemnted with exactly same interface, so we can easily choose one in the project.
 
 # Live Camera Capture: OpenCV
 
