@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libhog">
+      <UniqueIdentifier>{702a4c5c-f29f-49ca-97cf-4f22913949e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trackers">
+      <UniqueIdentifier>{d53a01ba-7d4f-460f-ab6f-adb1dac00001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trackers\hungarian">
+      <UniqueIdentifier>{db241971-974d-4413-9711-b5fe43ba712d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="top">
+      <UniqueIdentifier>{58fed425-ff90-4584-bef2-b2f8922f0739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{9ec07740-381d-4e70-b4e8-c269a4cf6dd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="trackers\hungarian\hungarian.cpp">
+      <Filter>trackers\hungarian</Filter>
+    </ClCompile>
+    <ClCompile Include="libhog\gradientMex.cpp">
+      <Filter>libhog</Filter>
+    </ClCompile>
+    <ClCompile Include="top\drawlib.c">
+      <Filter>top</Filter>
+    </ClCompile>
+    <ClCompile Include="top\td.cpp">
+      <Filter>top</Filter>
+    </ClCompile>
+    <ClCompile Include="trackers\kalman.cpp">
+      <Filter>trackers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="bin\libfftw3f-3.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="bin\libopenblas.dll.a">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="bin\pthreadVC2.lib">
+      <Filter>libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yolo3tracker", "yolo3tracker.vcxproj", "{DE1FBF22-F74A-4A70-8DF4-830714210A90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE1FBF22-F74A-4A70-8DF4-830714210A90}.Debug|x64.ActiveCfg = Debug|x64
+		{DE1FBF22-F74A-4A70-8DF4-830714210A90}.Debug|x64.Build.0 = Debug|x64
+		{DE1FBF22-F74A-4A70-8DF4-830714210A90}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE1FBF22-F74A-4A70-8DF4-830714210A90}.Debug|x86.Build.0 = Debug|Win32
+		{DE1FBF22-F74A-4A70-8DF4-830714210A90}.Release|x64.ActiveCfg = Release|x64
+		{DE1FBF22-F74A-4A70-8DF4-830714210A90}.Release|x64.Build.0 = Release|x64
+		{DE1FBF22-F74A-4A70-8DF4-830714210A90}.Release|x86.ActiveCfg = Release|Win32
+		{DE1FBF22-F74A-4A70-8DF4-830714210A90}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A948033-2348-4EBA-87C3-95442F883259}
+	EndGlobalSection
+EndGlobal
