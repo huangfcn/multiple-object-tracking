@@ -12,7 +12,7 @@
 
 	https://towardsdatascience.com/computer-vision-for-tracking-8220759eee85
   
-	An intriduction with matlab code,
+	Another introduction with matlab code,
   
 	https://www.mathworks.com/help/vision/examples/motion-based-multiple-object-tracking.html
 
