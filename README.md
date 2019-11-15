@@ -28,7 +28,8 @@
 # Trackers: Kalman Filter and KCF
 
 	Kalman filter is fast but less accurate. KCF is accurate but much slower. 
-	They are implemnted with exactly same interface, so we can easily choose one in the project.
+	They are implemnted with exactly same interface, so we can easily switch one to 
+	another in the project.
 
 # Live Camera Capture: OpenCV
 
