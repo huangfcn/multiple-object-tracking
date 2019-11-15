@@ -11,7 +11,6 @@ typedef float cnn_type_t;
 typedef float acc_type_t;
 
 /* linux / mingw */
-#define aligned_alloc(x, s) (_aligned_malloc((s), (x)))
 // #define _aligned_malloc(x, s) (aligned_alloc((x), (s)))
 // #define _aligned_free(x)      (free(x))
 
@@ -67,21 +66,5 @@ typedef struct
     cnn_type_t score;
     int        index;
 } score_t;
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-// int  initConvAndFc_p(struct Weight *weight, int schannel, int lchannel, int kersize, int stride, int pad);
-// int  initConvAndFc_q(struct Weight *weight, int schannel, int lchannel, int kersize, int stride, int pad);
-// void initpRelu_q(struct pRelu *prelu, int width) ;
-
-// int reorganizeWeightMatrix_p(struct Weight *weight);
-// int reorganizeWeightMatrix_f(struct Weight *weight, struct pBox * pbox);
-// int reorganizeBiasMatrix_p  (struct Weight *weight, struct pBox * pbox);
-// int reorganizeReluMatrix_p  (struct pRelu * prelu,  struct pBox * pbox);
-#ifdef __cplusplus
-};
-#endif
 
 #endif  // __CNN_TYPE_H__
