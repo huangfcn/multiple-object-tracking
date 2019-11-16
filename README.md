@@ -9,11 +9,9 @@
 	An assignment problem is used to associate the objects detected by detectors and tracked by trackers.
   
 	We can found some introduction of this framework here,
-
 	https://towardsdatascience.com/computer-vision-for-tracking-8220759eee85
   
 	Another example in more detail with matlab code (detecors and trackers may different),
-  
 	https://www.mathworks.com/help/vision/examples/motion-based-multiple-object-tracking.html
 
 	Here I implemented a highly efficient and scalable C++ framework to combine the state of art 
